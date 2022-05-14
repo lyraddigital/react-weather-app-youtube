@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    display: grid;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    color: #FFF;
+}
+
+a {
+
+    &:link,
+    &:hover,
+    &:visited,
+    &:active {
+        color: #FFF;
+    }
+
+    &:link,
+    &:visited {
+        text-decoration: none;
+    }
+
+    &:active,
+    &:hover {
+        text-decoration: underline;
+    }
+}
