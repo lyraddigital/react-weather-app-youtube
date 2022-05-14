@@ -1,0 +1,10 @@
+.mainContainer {
+    display: grid;
+}
+
+.layoutContainer {
+    min-height: 100vh;
+    background: linear-gradient(to bottom,
+            rgba(43, 50, 178, 0.9) 0%,
+            rgba(20, 136, 204, 0.9) 100%);
+}
