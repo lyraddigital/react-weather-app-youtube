@@ -10,5 +10,7 @@ html {
 
 body {
     display: grid;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
+    color: #FFF;
 }
