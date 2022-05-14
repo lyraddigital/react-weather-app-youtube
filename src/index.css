@@ -14,3 +14,17 @@ body {
     font-size: 1.6rem;
     color: #FFF;
 }
+
+a,
+a:link,
+a:hover,
+a:visited,
+a:active {
+    color: #FFF;
+    text-decoration: none;
+}
+
+a:active,
+a:hover {
+    text-decoration: underline;
+}
