@@ -1,5 +1,7 @@
 import './App.scss';
 
+import { CloudyIcon } from './components/Icons/CloudyIcon/CloudyIcon';
+
 function App() {
   return (
     <main className="mainContainer">
@@ -15,7 +17,7 @@ function App() {
         <div id="currentWeather">
           <div className="currentTemperature">
             <div className="iconContainer">
-              {/* This is where the SVG weather icon will go */}
+              <CloudyIcon />
             </div>
             <div className="contentContainer">
               <div className="value">18&deg;</div>
